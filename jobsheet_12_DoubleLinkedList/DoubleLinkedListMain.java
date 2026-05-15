@@ -26,6 +26,8 @@ public class DoubleLinkedListMain {
             System.out.println("1. Tambah data di awal");
             System.out.println("2. Tambah data di akhir");
             System.out.println("3. Sisipkan data di tengah (setelah NIM)");
+            System.out.println("4. Hapus data di awal");
+            System.out.println("5. Hapus data di akhir");
             System.out.println("6. Tampilkan data");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
@@ -47,6 +49,12 @@ public class DoubleLinkedListMain {
                     System.out.println("Masukkan data baru: ");
                     Mahasiswa11 dataBaru = inputMahasiswa(scan);
                     list.insertAfter(keyNim, dataBaru);
+                    break;
+                case 4:
+                    list.removeFirst(); 
+                    break;
+                case 5:
+                    list.removeLast();  
                     break;
                 case 6:
                     list.print();
