@@ -1,4 +1,4 @@
-package CaseMethod2;
+
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package CaseMethod2;
+
 
 public class NodeAntrian {
     Pembeli data;
